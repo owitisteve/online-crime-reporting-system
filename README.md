@@ -1,38 +1,40 @@
 # online-crime-reporting-system
- Library Signature Verification System
+# Crime Reporting System
 
- Overview
-This system is designed to improve library transactions by verifying student credentials and signatures. It allows students to borrow and return books, while providing the library with tools to manage records and generate reports.
+## Overview
+The Crime Reporting System is designed to facilitate the remote reporting of crimes while maintaining the anonymity of the reporters. This system aims to enhance the efficiency of crime reporting and monitoring.
 
-Objectives
-- Verify Login Credentials: Ensures that only authenticated students can access library services.
-- Signature Verification: Confirms student identity through digital signature authentication.
-- Book Issuance: Enables students to borrow books, with each transaction logged for record keeping.
-- Book Return: Allows students to return borrowed books and updates the records automatically.
-- Weekly Reports: Generates a summary report of borrowed books from each category.
+## Objectives
+- **General Objective**: Develop a crime reporting system that allows users to report crimes remotely, ensuring the anonymity of the reporters.
+  
+### Specific Objectives
+- **Remote Crime Reporting**: Enable users to report crimes that are currently occurring or have already occurred.
+- **Administrator Notifications**: Notify administrators when a crime has been reported.
+- **Crime Ranking**: Rank reported crimes based on their criticality to prioritize responses.
+- **Weekly Reporting**: Generate weekly reports on crimes reported for profiling and analysis.
 
-Features
-1. Student Authentication**: Verifies student login credentials.
-2. Digital Signature Verification**: Uses a verification system to confirm signatures.
-3. Borrowing and Returning Books**: Manages the issuing and returning of books.
-4. Report Generation**: Automatically generates weekly reports on borrowed books by category.
+## Features
+1. **Remote Reporting**: Users can submit crime reports from any location.
+2. **Anonymity**: The system ensures the anonymity of reporters to protect their identity.
+3. **Admin Notifications**: Automatically alerts administrators upon receiving a new crime report.
+4. **Criticality Ranking**: Classifies and ranks reported crimes based on urgency and severity.
+5. **Weekly Reports**: Generates summary reports for profiling reported crimes.
 
- Installation
-1. Clone the repository into your local system.
-2. Install any dependencies (e.g., PHP libraries) if needed.
-3. Set up your MySQL database and configure the database connection.
-4. Run the project using your local server (e.g., XAMPP).
+## Installation
+1. Clone the repository into your local environment.
+2. Install required dependencies if applicable (e.g., PHP libraries).
+3. Configure the database for crime reports and notifications.
+4. Start the project using a local server (e.g., XAMPP).
 
- Usage
-- Navigate to the system’s URL on your local server.
-- Log in with student credentials to borrow or return books.
-- Administrators can log in to view weekly reports.
+## Usage
+- Access the system through the designated URL on your local server.
+- Report crimes using the remote reporting feature.
+- Administrators can log in to view notifications and weekly reports.
 
- Technologies Used
-- PHP
-- MySQL
-- Signature Verification
-- HTML, CSS, JavaScript
+## Technologies Used
+- **PHP**
+- **MySQL**
+- **HTML, CSS, JavaScript**
 
 Contact
 For any questions, contact stevenowiti516@gmail.com.
